@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eidi Distribution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Eidi Distribution</h1>
+        <input type="text" id="sender" placeholder="Your Name">
+        <input type="text" id="recipient" placeholder="Reciever's Name">
+        <p>Select Currency Notes:</p>
+        <div class="currency-notes">
+            <img src="images/5.jpeg" alt="10 Note" onclick="selectCurrency(10)">
+            <img src="images/20.jpg" alt="20 Note" onclick="selectCurrency(20)">
+            <img src="images/50.jpeg" alt="50 Note" onclick="selectCurrency(50)">
+            <img src="images/100.jpeg" alt="100 Note" onclick="selectCurrency(100)">
+            <img src="images/500.jpeg" alt="500 Note" onclick="selectCurrency(500)">
+            <img src="images/1000.jpeg" alt="1000 Note" onclick="selectCurrency(1000)">
+            <img src="images/5000.jpg" alt="5000 Note" onclick="selectCurrency(5000)">
+        </div>
+        <button onclick="sendEidi()">Send Eidi</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
